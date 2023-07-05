@@ -1,0 +1,94 @@
+.header-main {
+  display: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 1.2rem;
+}
+
+.header-categories {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.header-categories ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-categories ul li {
+  list-style-type: none;
+}
+
+.header-navlink {
+  text-decoration: none;
+  color: white;
+}
+
+.header-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-search input {
+  padding: 2px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
+
+.header-search div {
+  size: 1rem;
+  margin-left: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.header-right-profile span {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.header-right-cart {
+  position: relative;
+}
+
+.header-right-cart span {
+  min-width: 25px;
+  text-align: center;
+  padding: 0px 3px;
+  border-radius: 25px;
+  background-color: purple;
+  position: absolute;
+  top: -9px;
+  right: -13px;
+  color: white;
+  cursor: pointer;
+}
+
+.header-right-cart svg {
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
