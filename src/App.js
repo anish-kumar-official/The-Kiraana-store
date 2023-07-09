@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import Categories from "./Pages/Categories";
 import Deals from "./Pages/Deals";
 import WhatsNew from "./Pages/WhatsNew";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,11 @@ function App() {
             <Route path="/whats-new" Component={WhatsNew} />
             <Route path="/register" Component={Register} />
           </Routes>
+
+          <br />
+          <br />
+
+          <Footer />
         </BrowserRouter>
       </div>
     </div>
