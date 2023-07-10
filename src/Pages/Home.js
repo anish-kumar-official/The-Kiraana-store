@@ -1,11 +1,11 @@
 import React from "react";
-import HeadphonesImg from "../Assets/Headphones2.jpg";
+import Grocery from "../Assets/Grocery.jpg";
 import "../CSS/Home.scss";
 
 const Home = () => {
   return (
     <div className="homePage">
-      <img src={HeadphonesImg} alt="error" />
+      <img src={Grocery} alt="error" />
       <div className="homeWrapper">
         <div className="mainHeading">SALES</div>
         <div className="mainHeadingBody">
@@ -13,7 +13,7 @@ const Home = () => {
           veritatis tempora ut tenetur error adipisci laudantium cumque unde
         </div>
         <div className="homeButtons">
-          <button className="readMore">ReadMore</button>
+          <button className="readMore >">ReadMore</button>
           <button className="buyNow">Buy Now</button>
         </div>
       </div>

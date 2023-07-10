@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     .nl-container{
+        padding: 20px 2px;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -39,6 +40,7 @@
         font-weight: 500;
     }
     .nl-icons{
+        padding: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -46,16 +48,17 @@
             margin: 5px;
             cursor: pointer;
         }
-        .fb-icon{
+        .fb-icon:hover{
             color: 	#3b5998;
         }
-        .linkedin-icon{
+        
+        .linkedin-icon:hover{
             color: #0077b5;
         }
-        .ig-icon{
+        .ig-icon:hover{
             color: 	#8a3ab9;
         }
-        .twitter-icon{
+        .twitter-icon:hover{
             color: #55acee;
         }
         svg{
